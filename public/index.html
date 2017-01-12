@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>TcsWhereis</title>
+  <link rel="stylesheet" href="/bootstrap/css/bootstrap.css" />
+  <script src="jquery.js"></script>
+  <script src="form.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1>TCS where_is simulator</h1>
+        <div id="responsesection">
+          <h2>Previous query</h2>
+          <p id="previousquery"></p>
+          <h3>Response</h3>
+          <p id="response"></p>
+        </div>
+        <form action="/whereis" accept-charset="UTF-8" method="get">
+          <h2 id="newqueryheading">New query</h2>
+          <div class="form-group">
+            <input type="text" name="query" id="query" />
+          </div>
+          <input type="submit" name="commit" value="Submit" class="btn btn-default" />
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

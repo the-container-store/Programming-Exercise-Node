@@ -1,0 +1,14 @@
+{
+  "name": "where-is-exercise-node",
+  "description": "Programming exercise for JavaScript/Node developers.",
+  "version": "0.1.0",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "express": "^4.14.0",
+    "jquery": "^3.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js"
+  }
+}
