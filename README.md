@@ -1,2 +1,2 @@
-# Where-Is-Exercise-Node
+# Programming-Exercise-Node
 Programming exercise for JavaScript/Node developers.
